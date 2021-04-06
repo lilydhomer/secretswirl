@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.notice {
+  padding: 20px;
+  width: 700px;
+  display: block;
+  position: relative;
+  font-family: sans-serif;
+
+}
+
+.links {
+  padding: 20px;
+  width: 500px;
+  display: block;
+  position: relative;
+    font-family: sans-serif;
+}
+
+h1 {
+  padding: 20px;
+  width: 500px;
+  display: block;
+  position: relative;
+    font-family: sans-serif;
+}
+
+.form {
+  margin: 20px;
+  width: 700px;
+  height: 350px;
+  display: block;
+  position: relative;
+    font-family: sans-serif;
+}
