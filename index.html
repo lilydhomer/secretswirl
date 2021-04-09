@@ -3,14 +3,32 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/styles.css">
-    <title> secrets form </title>
+    <title> secrets </title>
   </head>
+    <body>
 
-  <body>
-  <h1>Secret Swirls</h1><br>
-  <a href="form.html" title="form" class="links">Submit a new secret</a>
-  </body>
+      <script src="js/swirl.js"></script>
+      <script src="js/p5.js"></script>
 
-</html>
 
-<!-- title="Next"><img src="images/nextarrow.png" class="nextarrow"></a> -->
+      <p id="holder"></p>
+
+
+      <script>
+      var arr = [
+        "i hate my mother in law",
+        "i didn't brush my teeth last night",
+        "I think Wallace Shawn is hot",
+        "I like dogs more than people"
+      ];
+      var holder = document.getElementById("holder");
+      let r = Math.floor(Math.random() * arr.length);
+      holder.innerHTML += arr[r]
+
+      </script>
+      <a href onClick="location.reload()" class="reveal">reveal a new secret</a>
+      <h1>Secret Swirls</h1><br>
+      <a href="form.html" title="form" class="submit">submit a new secret</a>
+
+    </body>
+  </html>
