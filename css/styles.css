@@ -20,20 +20,45 @@ canvas {
 
 }
 
-.links {
-  padding: 20px;
-  width: 500px;
-  display: block;
-  position: relative;
+.submit {
+  bottom: 50px;
+    padding: 20px;
+    width: 100%;
+    display: block;
+    position: absolute;
     font-family: sans-serif;
+    background-color: white;
 }
 
+.reveal {
+  bottom: 0px;
+    padding: 20px;
+    width: 100%;
+    display: block;
+    position: absolute;
+    background-color: white;
+    justify-content: center;
+        font-family: sans-serif;
+}
+
+.watch {
+  bottom: 0px;
+    padding: 20px;
+    width: 100%;
+    display: block;
+    position: absolute;
+    background-color: white;
+    justify-content: center;
+        font-family: sans-serif;
+}
 h1 {
+  margin: 0px;
   padding: 20px;
-  width: 500px;
-  display: block;
+  width: 100%;
+  background-color: white;
+  display: static;
   position: relative;
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 .form {
@@ -44,3 +69,25 @@ h1 {
   position: relative;
     font-family: sans-serif;
 }
+
+.swirl {
+  height: 500px;
+}
+
+#holder {
+  position: fixed;
+  width: 100%;
+  left: 20%;
+  animation-name: move1;
+  animation-duration: 10s;
+  font-size: 40pt;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+    @keyframes move1 {
+      /* 0% {left: calc(0vw - 600px);} */
+      0% {top: calc(0vh - 120px);}
+      100% {top: 100vh;}
+    }
