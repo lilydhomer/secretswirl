@@ -76,7 +76,7 @@ h1 {
 
 #holder {
   position: fixed;
-  width: 100%;
+  width: 70%;
   left: 20%;
   animation-name: move1;
   animation-duration: 10s;
